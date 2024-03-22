@@ -10,6 +10,7 @@ h1 {
 }
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
 }
 a {
     color: white;
@@ -17,6 +18,23 @@ a {
 p {
     text-align: justify;
     text-indent: 15px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.clear {
+    clear: both;
+}
+.bg {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)), url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
 }
 .imgColor {
     color: white;
@@ -27,18 +45,9 @@ p {
     margin-right: 5px;
     margin-left: 5px;
 }
-.bg {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)), url(../img/bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-}
 .menuContainer {
     padding: 20px;
-    background-color: #008000;
+    background-color: #055e05;
 }
 .menu {
     margin-right: 20px;
@@ -58,6 +67,28 @@ p {
     width: 90%;
     margin: auto;
     display: flex;
+    text-align: center;
+}
+.imgCdd {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px black;
+}
+.imgBox {
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+}
+.imgCenter {
+    margin: 10px;
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+.col {
+    width: 33.3%;
+    float: left;
     text-align: center;
 }
 @media(max-width: 980px){
