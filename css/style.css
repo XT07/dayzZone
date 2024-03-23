@@ -19,6 +19,13 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+::-webkit-scrollbar {
+    background-color: #055e05;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(3, 163, 3);
+}
 .pDefault {
     text-align: justify;
     text-indent: 15px;
@@ -34,7 +41,7 @@ hr {
 }
 .bg {
     background-image: linear-gradient( rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.7)), url(../img/bg.jpg);
+    rgba(0, 0, 0, 0.7)), url(../img/bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
